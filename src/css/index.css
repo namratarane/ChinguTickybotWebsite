@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ul { list-style-type:none; text-align:center; margin:0auto; padding:0px; display:block; overflow:hidden; background:#dddddd;}   
+ 
+li { display:inline-block; }
+
+li a {display:block; padding:8px; background-color: #dddddd;}
+*/
+
+/*
+.main-nav ul {
+  display: flexbox;
+  justify-content: center;
+}
+*/
+
+
+header nav ul {
+  margin: 0;
+  height: 62px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+  margin-right: 16px;
+}
+
+header nav ul li:last-child {
+  margin-right: 40px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ffcf5c;
+  font-size: 1.25rem;  
+}
+
+header nav ul li a:hover {
+  color: white;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.pageHeader {
+  background-color: #42596b;
+  font-family: Signika,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.tickybot {
+  background-color: #55c0ec;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+.tickybotInfo{
+  /*max-width: 50%;*/
+}
+.tickybotInfo h1{
+    color: rgba(0,0,0,.6);
+    font-size: 5rem;
+    letter-spacing: -.1875rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.tickybotImg {
+
+}
+
+.about {
+  text-align: center;
+}
+
+.features {
+  background-color: #90ddaa;
+  text-align: center;
+  font-size:40px;
+}
+
+footer p {
+  text-align: center;
+}
+
+.pageFooter {
+  margin: 0 auto;
+  font-size: .825rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.backToTop {
+    background-color: #ffd05a;
+    height : 40px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    padding: .5rem .5rem 0;
+    bottom: 1rem;
+    right: 1rem;
+    position: fixed;
+    z-index: 99;
+}
+
+
