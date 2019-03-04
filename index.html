@@ -18,27 +18,66 @@
             </div>
         </header>            
         <main>
-                <section class="container tickybot" id="mainSection">
+            <section class="container tickybot" id="mainSection">
+                <div class="tickybotContainer">
+                    <div class="tickybotInfo">
+                        <h1><strong>Ticky</strong>Bot</h1>
+                        <p class="tickyBotDesc">Let your team manage their support tickets 100% inside Slack</p>
+                        <a class="tickyBotInfoButton" href="https://slack.com"> 
+                                <img src="src/assets/slack.svg" alt="">
+                                <span>Add to
+                                  <strong>Slack</strong>
+                                </span>
+                        </a>
+                    </div>
+                    <div class="tickybotImg">
+                        <img src="src/assets/tickybot.svg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="container aboutSec" id="about">
+                <div class="sectionHeading">
+                    <h1>What Is TickyBot</h1>
+                </div>   
+                <div class="aboutFirst">             
+                    <div class=""aboutFirstContent>
+                            TickyBot is a Slack Bot 🤖 that lets you use support tickets on Slack. This way, you don't need to leave your beloved channel to assist your users, if you don't feel like it.
+                    </div>
                     <div>
-                        <div class="tickybotInfo">
-                            <h1><strong><em>Ticky</em></strong>Bot</h1>
-                            <p>Let your team manage their support tickets 100% inside Slack</p>
-                            <button class="light">Add to <strong>Slack</strong></button>
-                        </div>
-                        <div class="tickybotImg">
-                            <img src="src/assets/tickybot.svg" alt="">
+                            With TickyBot you can easily check if you've received new tickets, change their status, or write a reply, and the ticket will instantly update itself on our site.
+                    </div>
+                </div>
+                <div class="aboutSecond">
+                    Support requests shouldn't be handled through Slack's direct messages. 
+                    Image about someone asking silly questions and the workplace admin asking him/her to open a support ticket so other admins could look into the issue.                 
+                </div>
+            </section>
+            <section class="container features" id="features">
+                <div class="sectionHeading">
+                    <h1>How It Works</h1>
+                </div>
+
+                <div class="features-box">
+                    <div class="features-box1">
+                        <img class="featureImage" src="src/assets/workplace.svg" alt="">
+                        <div class="desc">
+                            <p>You can add TickyBot to your Slack workplace by scrolling down or clicking here</p>
+                        </div>                        
+                    </div>
+                    <div class="features-box1">
+                        <img class="featureImage" src="src/assets/bubble.svg" alt="">
+                        <div class="desc">
+                                <p>Your users can open a ticket by typing /ticket and their message into the chat field</p>
                         </div>
                     </div>
-                </section>
-                <section class="container about" id="about">
-                    <div>
-                        <p>About</p>
+                    <div class="features-box1">
+                        <img class="featureImage" src="src/assets/tasks.svg" alt="">
+                        <div class="desc">
+                                <p>Once you or another admin solved their problems you can type /ticket close #id to close the ticket</p>
+                        </div>
                     </div>
-                </section>
-                <section class="container features" id="features">
-                    <h1>How It Works</h1> 
-                </section>                
-        
+                </div>
+            </section>                
         </main>
         <footer>
             <div class="pageHeader pageFooter">
@@ -55,9 +94,7 @@
                 <img src="src/assets/top.svg" alt="">
                 <span class="screen-reader-text">Top</span>
             </a>
-        </div>    
-
-        
+        </div>
     </body>
 </html>
 
