@@ -116,8 +116,6 @@ strong {
 }
 
 .tickybotInfo{  
-  /*debugging*/
-  border: 1px #ccc solid;
   display: flex;
   flex-direction: column;
   flex-wrap:nowrap;
@@ -168,16 +166,7 @@ strong {
 
 .tickybotImg {
   width: 50%;
-    /*debugging*/
-    border: 1px #ccc solid;
   }
-
-.tickybotImg img {
-  /*
-    max-width: 90%;
-    max-height: 90%;
-    */
-}
 
 
 .aboutSec {
@@ -217,6 +206,7 @@ strong {
 
 .features div, features-box1 div {
   /*
+  debugging
   border : 1px #ccc solid;
   */
 }
